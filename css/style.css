@@ -1,0 +1,125 @@
+/* set common font */
+body {
+    font-family: 'Lato', sans-serif;
+    background: url(../assets/pattern.png);
+    background-size: 500px;
+}
+
+/* reset margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common stylke for cards */
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0,0,0, 0.3);
+}
+
+/* cards header */
+.card h1 {
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+/* cards paragraphs */
+.card p {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+/* style the card economy */
+.card-economy h1 {
+    color: salmon;
+}
+
+.card-economy a {
+    background-color: salmon;
+}
+
+.card-economy a:hover {
+    background-color: rgb(235, 117, 104);
+}
+
+.card-economy a:active {
+    background-color: rgb(215, 106, 94);
+}
+
+/* style luxury card */
+.card-luxury h1 {
+    color: magenta;
+}
+
+.card-luxury a {
+    background-color: magenta;
+}
+
+.card-luxury a:hover {
+    background-color: rgb(231, 10, 231);
+}
+
+.card-luxury a:active {
+    background-color: rgb(207, 17, 207);
+}
+
+
+/* style family card */
+.card-family h1 {
+    color: khaki;
+}
+
+.card-family a {
+    background-color: khaki;
+}
+
+.card-family a:hover {
+    background-color: rgb(216, 207, 125);
+}
+
+.card-family a:active {
+    background-color: rgb(208, 200, 129);
+}
+
+/* style link buttons */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: aqua;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.card-economy {
+    background: #fff url(../assets/economic-car.png) no-repeat right;
+    background-size: 200px;
+}
+
+.card-luxury {
+    background: #fff url(../assets/luxury-car.png) no-repeat right;
+    background-size: 200px;
+}
+
+.card-family {
+    background: #fff url(../assets/family-car.png) no-repeat right;
+    background-size: 200px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
